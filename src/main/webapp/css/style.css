@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.header{
+width: 60%;
+height: 50px;
+background-color: rgb(54, 166, 231);
+color: black;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+line-height: 50px;
+margin-bottom: 24px;
+}
+
+.wrap{
+min-width: 400px;
+min-height: 500px;
+border: 1px solid rgb(77, 201, 97);
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+form{
+    width: 100%;
+}
+label{
+    display: block;
+    font-size: 16px;
+    margin: 10px 12px 0 12px;
+    width: 100%;
+}
+input[type=button]:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+input[type=text], input[type=email]{
+    width: 90%;
+    height: 45px;
+    padding: 4px 12px;
+    margin: 0px 16px;
+    outline: none;
+    font-size: 16px;
+}
+input[type=text]:focus{
+  border: 1px solid rgb(25, 158, 182);
+}
+.gender div{
+   text-align: center;
+}
+input[type=radio]{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.age, .gpa{
+    margin: 18px 16px;
+}
+input[type=number]{
+    height: 24px;
+    width: 60px;
+    margin: 0 8px;
+    padding: 0 5px;
+}
+input[type=submit]{
+    border: 1px solid rgb(77, 201, 97);
+    background-color: rgb(54, 166, 231);
+    border-radius: 4px;
+    min-width: 90px;
+    height: 34px;
+    font-size: 20px;
+    margin-left: 145px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+input[type=button]{
+	border: 1px solid rgb(77, 201, 97);
+    background-color: rgb(54, 166, 231);
+    border-radius: 4px;
+    min-width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 24px;
+    padding: 0 4px;
+}
+table{
+	min-width: 60%;
+	text-align: center;
+	border: 1px solid rgb(77, 201, 97);
+}
+tr{
+	height: 34px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: rgb(54, 166, 231);
+}
